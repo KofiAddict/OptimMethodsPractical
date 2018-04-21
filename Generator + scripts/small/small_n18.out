@@ -1,0 +1,35 @@
+GLPSOL: GLPK LP/MIP Solver, v4.55
+Parameter(s) specified in the command line:
+ -m tmp.mod
+Reading model section from tmp.mod...
+Reading data section from tmp.mod...
+130 lines were read
+Generating obj...
+Generating kirhoff...
+Generating init_charge...
+Generating batt_size...
+Model has been successfully generated
+GLPK Simplex Optimizer, v4.55
+79 rows, 121 columns, 236 non-zeros
+Preprocessing...
+51 rows, 90 columns, 191 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 51
+      0: obj =   0.000000000e+00  infeas =  1.630e+02 (0)
+*    27: obj =   2.500000000e+01  infeas =  0.000e+00 (0)
+*    33: obj =   1.500000000e+01  infeas =  0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.3 Mb (325331 bytes)
+#OUTPUT:
+15
+-15 -15 -15 0 0 0 0 0 0 0 
+-11 0 0 -11 0 0 0 0 -4 0 
+-18 -18 -7 0 -19 0 -11 -5 0 1 
+-18 -13 -13 0 -7 -6 0 -5 -10 0 
+-16 -16 0 0 0 0 0 0 0 0 
+#OUTPUT END
+Model has been successfully processed
