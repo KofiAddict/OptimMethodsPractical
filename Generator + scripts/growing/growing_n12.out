@@ -1,0 +1,38 @@
+GLPSOL: GLPK LP/MIP Solver, v4.55
+Parameter(s) specified in the command line:
+ -m tmp.mod
+Reading model section from tmp.mod...
+Reading data section from tmp.mod...
+761 lines were read
+Generating obj...
+Generating kirhoff...
+Generating init_charge...
+Generating batt_size...
+Model has been successfully generated
+GLPK Simplex Optimizer, v4.55
+880 rows, 1254 columns, 2622 non-zeros
+Preprocessing...
+649 rows, 1167 columns, 2489 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 546
+      0: obj =   0.000000000e+00  infeas =  4.310e+02 (103)
+*   157: obj =   3.900000000e+01  infeas =  0.000e+00 (81)
+*   184: obj =   1.300000000e+01  infeas =  0.000e+00 (81)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 2.5 Mb (2665324 bytes)
+#OUTPUT:
+13
+-15 0 -12 -15 0 -9 0 -3 0 0 8 0 0 0 -17 -14 0 0 0 1 4 0 0 0 -17 0 0 -1 0 1 -1 1 0 0 0 -17 0 0 0 0 0 0 -3 -17 -3 1 -1 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+-3 0 0 0 0 0 0 -3 -7 0 0 0 4 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+-2 0 0 -16 -13 0 0 -2 0 0 0 0 0 0 -1 -16 0 0 0 0 0 -2 0 0 -1 0 0 0 0 0 0 -4 0 0 -1 0 0 -16 0 0 0 0 0 -3 -2 0 0 0 -13 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+-3 0 -3 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 -5 0 0 0 0 0 0 -1 0 -3 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 0 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 -5 0 0 0 0 -6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+-15 -1 -11 -2 0 -8 0 -3 0 0 -8 0 0 0 -17 -1 0 -1 0 -1 4 0 0 0 -19 0 0 0 0 0 -1 7 0 0 1 0 0 -1 0 0 0 -14 -3 -17 -3 1 0 1 -11 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+-13 0 0 0 0 0 0 -3 -10 0 0 0 7 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 -7 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+#OUTPUT END
+Model has been successfully processed
